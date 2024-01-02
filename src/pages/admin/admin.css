@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav a.active {
+    color: #fff;
+    background: #7600dc;
+  }
+  .nav a.inactive {
+    font-style: italic;
+  }

@@ -1,0 +1,96 @@
+/* @import url('/src//assets//css/bootstrap.css'); */
+@import url('/src/assets/css/style.css');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  font-weight: 12px;
+  font-size: 13px ;
+}
+
+table{
+  font-size: 14px !important;
+}
+/*------------Register Page------------*/
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+/* .ant-modal-mask{
+  z-index: 10000 !important;
+} */
+
+.main-sidebar, .main-header{
+  z-index: 900 !important;
+}
+
+.tshirt_img{
+  margin: 0 !important;
+  }
+
+  .block-title{
+    border: 1px solid #e5e5e5;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    margin: 0 !important;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+}
+.block-content{
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    margin: -1px 0 0;
+    border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+}
+.filter-options {
+  margin: 0;
+}
+.filter-options-title {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.filter-options-content {
+  /* margin: 0 -20px 20px; */
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0 20px 20px;
+}
+.items {
+  margin: 0;
+  padding: 0;
+  list-style: none none;
+}
+.items li {
+  margin-bottom: 15px;
+}
+.items li a {
+  display: block;
+  position: relative;
+  padding-left: 23px;
+}
+
+section {
+  padding: 40px 0;
+}
+.img-product-gallery-wrapper {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 29.12px 2.88px rgba(69, 68, 68, 0.03);
+  box-shadow: 0px 0px 29.12px 2.88px rgba(69, 68, 68, 0.03);
+  padding: 30px;
+  margin-bottom: 30px;
+}
